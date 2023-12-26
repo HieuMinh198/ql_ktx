@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="qlktx_DAWModelStoreContainer" CdmEntityContainer="qlktx_DAWEntities1">
+    <EntitySetMapping Name="dich_vu">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.dich_vu">
+        <MappingFragment StoreEntitySet="dich_vu">
+          <ScalarProperty Name="ma_dich_vu" ColumnName="ma_dich_vu" />
+          <ScalarProperty Name="ten_dich_vu" ColumnName="ten_dich_vu" />
+          <ScalarProperty Name="gia_dich_vu" ColumnName="gia_dich_vu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dich_vu_phong">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.dich_vu_phong">
+        <MappingFragment StoreEntitySet="dich_vu_phong">
+          <ScalarProperty Name="ma_dich_vu_phong" ColumnName="ma_dich_vu_phong" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+          <ScalarProperty Name="ma_dich_vu" ColumnName="ma_dich_vu" />
+          <ScalarProperty Name="ma_phong" ColumnName="ma_phong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="phieu_dat_phong">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.phieu_dat_phong">
+        <MappingFragment StoreEntitySet="phieu_dat_phong">
+          <ScalarProperty Name="ma_phieu_dat_phong" ColumnName="ma_phieu_dat_phong" />
+          <ScalarProperty Name="ngay_dat" ColumnName="ngay_dat" />
+          <ScalarProperty Name="ngay_bat_dau" ColumnName="ngay_bat_dau" />
+          <ScalarProperty Name="ngay_ket_thuc" ColumnName="ngay_ket_thuc" />
+          <ScalarProperty Name="tong_tien" ColumnName="tong_tien" />
+          <ScalarProperty Name="ma_phong" ColumnName="ma_phong" />
+          <ScalarProperty Name="ma_sv" ColumnName="ma_sv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phong">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.Phong">
+        <MappingFragment StoreEntitySet="Phong">
+          <ScalarProperty Name="ma_phong" ColumnName="ma_phong" />
+          <ScalarProperty Name="ten_phong" ColumnName="ten_phong" />
+          <ScalarProperty Name="so_giuong" ColumnName="so_giuong" />
+          <ScalarProperty Name="loai_phong" ColumnName="loai_phong" />
+          <ScalarProperty Name="gia_phong" ColumnName="gia_phong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="quan_tri">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.quan_tri">
+        <MappingFragment StoreEntitySet="quan_tri">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sinh_vien">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.sinh_vien">
+        <MappingFragment StoreEntitySet="sinh_vien">
+          <ScalarProperty Name="ma_sv" ColumnName="ma_sv" />
+          <ScalarProperty Name="ho_ten" ColumnName="ho_ten" />
+          <ScalarProperty Name="gioi_tinh" ColumnName="gioi_tinh" />
+          <ScalarProperty Name="anh" ColumnName="anh" />
+          <ScalarProperty Name="ngay_sinh" ColumnName="ngay_sinh" />
+          <ScalarProperty Name="que_quan" ColumnName="que_quan" />
+          <ScalarProperty Name="lop" ColumnName="lop" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="ngay_vao_o" ColumnName="ngay_vao_o" />
+          <ScalarProperty Name="ma_phong" ColumnName="ma_phong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thanh_toan">
+      <EntityTypeMapping TypeName="qlktx_DAWModel.thanh_toan">
+        <MappingFragment StoreEntitySet="thanh_toan">
+          <ScalarProperty Name="ma_thanh_toan" ColumnName="ma_thanh_toan" />
+          <ScalarProperty Name="ngay_thanh_toan" ColumnName="ngay_thanh_toan" />
+          <ScalarProperty Name="so_tien" ColumnName="so_tien" />
+          <ScalarProperty Name="ma_phieu_dat_phong" ColumnName="ma_phieu_dat_phong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

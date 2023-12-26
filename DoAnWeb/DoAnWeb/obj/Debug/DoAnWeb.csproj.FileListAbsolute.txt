@@ -1,0 +1,324 @@
+F:\On_Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+F:\On_Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe.config
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.rsp
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe.config
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.rsp
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.AppContext.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Console.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Http.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Sockets.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.ValueTuple.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe.config
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.rsp
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+F:\On_Web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Owin.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\WebGrease.dll
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.pdb
+F:\On_Web\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\On_Web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\On_Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.AssemblyReference.cache
+F:\On_Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+F:\On_Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CopyComplete
+F:\On_Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+F:\On_Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+E:\Phat trien Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.AssemblyReference.cache
+E:\Phat trien Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+E:\Phat trien Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe.config
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csc.rsp
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe.config
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\csi.rsp
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.AppContext.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Console.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Globalization.Calendars.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Http.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Sockets.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.ValueTuple.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe.config
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.rsp
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Owin.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\WebGrease.dll
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.pdb
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Phat trien Web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CopyComplete
+F:\web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+F:\web\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+F:\web\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe.config
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csc.rsp
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csi.exe.config
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\csi.rsp
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.AppContext.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Console.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Globalization.Calendars.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Http.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Net.Sockets.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.ValueTuple.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe.config
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\vbc.rsp
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+F:\web\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.dll
+F:\web\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+F:\web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.dll
+F:\web\DoAnWeb\DoAnWeb\bin\Owin.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.dll
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.dll
+F:\web\DoAnWeb\DoAnWeb\bin\WebGrease.dll
+F:\web\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+F:\web\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Optimization.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Deployment.xml
+F:\web\DoAnWeb\DoAnWeb\bin\System.Web.WebPages.Razor.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Newtonsoft.Json.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Antlr3.Runtime.pdb
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\web\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.AssemblyReference.cache
+F:\web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+F:\web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CopyComplete
+F:\web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+F:\web\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
