@@ -1,0 +1,77 @@
+﻿@model IEnumerable<DoAnWeb.Models.dich_vu>
+
+@{
+    ViewBag.Title = "Danh sách dịch vụ";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    var grid = new WebGrid(Model, canPage: true, defaultSort: "ma_dich_vu", rowsPerPage: 3);
+    @Scripts.Render("~/Scripts/jquery-1.6.2.min.js")
+    int i = 0;
+}
+
+
+<h3 class="text-center">DANH SÁCH DỊCH VỤ</h3>
+
+<div id="gridContent">
+    @ViewBag.TB
+    @grid.GetHtml(
+        tableStyle: "table table-bordered table-hover",
+        footerStyle: "grid-footer",
+        fillEmptyRows: true,
+        mode: WebGridPagerModes.Numeric,
+        alternatingRowStyle: "alternatingRowStyle",
+          columns: new[]  // colums in grid
+         {
+      grid.Column("STT",format: item => item.WebGrid.Rows.IndexOf(item) + 1 + Math.Round(Convert.ToDouble(grid.TotalRowCount / grid.PageCount) / grid.RowsPerPage) * grid.RowsPerPage * grid.PageIndex),
+        grid.Column("ma_dich_vu","Mã dịch vụ"), //the model fields to display
+        grid.Column("ten_dich_vu","Tên dịch vụ"),
+grid.Column("gia_dich_vu","Giá dịch vụ"),
+grid.Column("Chức năng", format: @<text>
+    <a href="@Url.Action("Edit",
+                        new { id = item.ma_dich_vu})" class="edit-btn"><abbr title="Cập nhật dữ liệu"><img src="/images/edit.png" width="20" height="20" /></abbr></a>
+    
+    <a href="@Url.Action("Delete",
+                        new { id = item.ma_dich_vu})" class="edit-btn">
+        <abbr title="Xóa dữ liệu">
+            <img src="/images/delete.png" width="20" height="20" />
+        </abbr>
+    </a>
+</text>),
+}
+)
+</div>
+<style type="text/css">
+    .grid-footer {
+        color: #000;
+        font: 17px Calibri;
+        text-align: center;
+        font-weight: bold;
+    }
+
+        .grid-footer a {
+            background-color: #ffffff;
+            color: blue;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            padding: 1px 10px 2px 10px;
+        }
+
+            .grid-footer a:active, a:hover {
+                background-color: #ffffff;
+                color: #FFAD33;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            }
+
+    .alternatingRowStyle {
+        background-color: aliceblue;
+    }
+
+    table .table1 {
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 800px;
+    }
+
+    .tr, .td {
+        text-align: left;
+    }
+</style>

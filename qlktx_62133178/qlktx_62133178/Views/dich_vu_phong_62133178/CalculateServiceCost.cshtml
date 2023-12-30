@@ -1,0 +1,35 @@
+﻿@model System.Data.DataTable
+
+@using System.Data
+
+@{
+    ViewBag.Title = "Hóa đơn";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2 align='center'>BẢNG HÓA ĐƠN DỊCH VỤ</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã dịch vụ phòng</th>
+            <th>Tên phòng</th>
+            <th>Tên dịch vụ</th>
+            <th>Số lượng</th>
+            <th>Giá dịch vụ</th>
+            <th>Tổng tiền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow row in ViewBag.ServiceCostTable.Rows)
+        {
+            <tr>
+                <td>@row["dich_vu_phong_id"]</td>
+                <td>@row["ten_phong"]</td>
+                <td>@row["ten_dich_vu"]</td>
+                <td>@row["so_luong"]</td>
+                <td>@row["gia_dich_vu"]</td>
+                <td>@row["tong_tien"]</td>
+            </tr>
+        }
+    </tbody>
+</table>

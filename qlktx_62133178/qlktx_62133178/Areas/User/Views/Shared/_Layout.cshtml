@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/StyleAdmin.css" rel="stylesheet" />
+</head>
+<body style="margin-top:0px;">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Quản Lý Ký Túc</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        @Html.ActionLink("Sinh viên", "Index", "sinh_vienUser_62133178", "", new { @class = "a" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("Phòng", "Index", "PhongUser_62133178", "", new { @class = "a" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("Dịch vụ", "Index", "dich_vuUser_62133178", "", new { @class = "a" })
+
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @Html.Partial("_LoginPartial")
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="content">
+        @RenderBody()
+    </div>
+</body>
+</html>

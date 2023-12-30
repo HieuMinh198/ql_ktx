@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="qlktx_DAWModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="dich_vu">
+    <Key>
+      <PropertyRef Name="ma_dich_vu" />
+    </Key>
+    <Property Name="ma_dich_vu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ten_dich_vu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gia_dich_vu" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="dich_vu_phong" Relationship="Self.FK__dich_vu_p__ma_di__31EC6D26" FromRole="dich_vu" ToRole="dich_vu_phong" />
+  </EntityType>
+  <EntityType Name="dich_vu_phong">
+    <Key>
+      <PropertyRef Name="ma_dich_vu_phong" />
+    </Key>
+    <Property Name="ma_dich_vu_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="so_luong" Type="Int32" Nullable="false" />
+    <Property Name="ma_dich_vu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ma_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="dich_vu" Relationship="Self.FK__dich_vu_p__ma_di__31EC6D26" FromRole="dich_vu_phong" ToRole="dich_vu" />
+    <NavigationProperty Name="Phong" Relationship="Self.FK__dich_vu_p__ma_ph__32E0915F" FromRole="dich_vu_phong" ToRole="Phong" />
+  </EntityType>
+  <EntityType Name="phieu_dat_phong">
+    <Key>
+      <PropertyRef Name="ma_phieu_dat_phong" />
+    </Key>
+    <Property Name="ma_phieu_dat_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ngay_dat" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ngay_bat_dau" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ngay_ket_thuc" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="tong_tien" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ma_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ma_sv" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Phong" Relationship="Self.FK__phieu_dat__ma_ph__29572725" FromRole="phieu_dat_phong" ToRole="Phong" />
+    <NavigationProperty Name="sinh_vien" Relationship="Self.FK__phieu_dat__ma_sv__2A4B4B5E" FromRole="phieu_dat_phong" ToRole="sinh_vien" />
+    <NavigationProperty Name="thanh_toan" Relationship="Self.FK__thanh_toa__ma_ph__2D27B809" FromRole="phieu_dat_phong" ToRole="thanh_toan" />
+  </EntityType>
+  <EntityType Name="Phong">
+    <Key>
+      <PropertyRef Name="ma_phong" />
+    </Key>
+    <Property Name="ma_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ten_phong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="so_giuong" Type="Int32" Nullable="false" />
+    <Property Name="loai_phong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gia_phong" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="dich_vu_phong" Relationship="Self.FK__dich_vu_p__ma_ph__32E0915F" FromRole="Phong" ToRole="dich_vu_phong" />
+    <NavigationProperty Name="phieu_dat_phong" Relationship="Self.FK__phieu_dat__ma_ph__29572725" FromRole="Phong" ToRole="phieu_dat_phong" />
+    <NavigationProperty Name="sinh_vien" Relationship="Self.FK__sinh_vien__ma_ph__267ABA7A" FromRole="Phong" ToRole="sinh_vien" />
+  </EntityType>
+  <EntityType Name="quan_tri">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Admin" Type="Boolean" />
+    <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sinh_vien">
+    <Key>
+      <PropertyRef Name="ma_sv" />
+    </Key>
+    <Property Name="ma_sv" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ho_ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gioi_tinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="anh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ngay_sinh" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="que_quan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="lop" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sdt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ngay_vao_o" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ma_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="phieu_dat_phong" Relationship="Self.FK__phieu_dat__ma_sv__2A4B4B5E" FromRole="sinh_vien" ToRole="phieu_dat_phong" />
+    <NavigationProperty Name="Phong" Relationship="Self.FK__sinh_vien__ma_ph__267ABA7A" FromRole="sinh_vien" ToRole="Phong" />
+  </EntityType>
+  <EntityType Name="thanh_toan">
+    <Key>
+      <PropertyRef Name="ma_thanh_toan" />
+    </Key>
+    <Property Name="ma_thanh_toan" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ngay_thanh_toan" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="so_tien" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ma_phieu_dat_phong" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="phieu_dat_phong" Relationship="Self.FK__thanh_toa__ma_ph__2D27B809" FromRole="thanh_toan" ToRole="phieu_dat_phong" />
+  </EntityType>
+  <Association Name="FK__dich_vu_p__ma_di__31EC6D26">
+    <End Role="dich_vu" Type="Self.dich_vu" Multiplicity="0..1" />
+    <End Role="dich_vu_phong" Type="Self.dich_vu_phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dich_vu">
+        <PropertyRef Name="ma_dich_vu" />
+      </Principal>
+      <Dependent Role="dich_vu_phong">
+        <PropertyRef Name="ma_dich_vu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__dich_vu_p__ma_ph__32E0915F">
+    <End Role="Phong" Type="Self.Phong" Multiplicity="0..1" />
+    <End Role="dich_vu_phong" Type="Self.dich_vu_phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phong">
+        <PropertyRef Name="ma_phong" />
+      </Principal>
+      <Dependent Role="dich_vu_phong">
+        <PropertyRef Name="ma_phong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__phieu_dat__ma_ph__29572725">
+    <End Role="Phong" Type="Self.Phong" Multiplicity="1" />
+    <End Role="phieu_dat_phong" Type="Self.phieu_dat_phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phong">
+        <PropertyRef Name="ma_phong" />
+      </Principal>
+      <Dependent Role="phieu_dat_phong">
+        <PropertyRef Name="ma_phong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__phieu_dat__ma_sv__2A4B4B5E">
+    <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="1" />
+    <End Role="phieu_dat_phong" Type="Self.phieu_dat_phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sinh_vien">
+        <PropertyRef Name="ma_sv" />
+      </Principal>
+      <Dependent Role="phieu_dat_phong">
+        <PropertyRef Name="ma_sv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__thanh_toa__ma_ph__2D27B809">
+    <End Role="phieu_dat_phong" Type="Self.phieu_dat_phong" Multiplicity="0..1" />
+    <End Role="thanh_toan" Type="Self.thanh_toan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="phieu_dat_phong">
+        <PropertyRef Name="ma_phieu_dat_phong" />
+      </Principal>
+      <Dependent Role="thanh_toan">
+        <PropertyRef Name="ma_phieu_dat_phong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sinh_vien__ma_ph__267ABA7A">
+    <End Role="Phong" Type="Self.Phong" Multiplicity="1" />
+    <End Role="sinh_vien" Type="Self.sinh_vien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phong">
+        <PropertyRef Name="ma_phong" />
+      </Principal>
+      <Dependent Role="sinh_vien">
+        <PropertyRef Name="ma_phong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="qlktx_62133143" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dich_vu" EntityType="Self.dich_vu" />
+    <EntitySet Name="dich_vu_phong" EntityType="Self.dich_vu_phong" />
+    <EntitySet Name="phieu_dat_phong" EntityType="Self.phieu_dat_phong" />
+    <EntitySet Name="Phong" EntityType="Self.Phong" />
+    <EntitySet Name="quan_tri" EntityType="Self.quan_tri" />
+    <EntitySet Name="sinh_vien" EntityType="Self.sinh_vien" />
+    <EntitySet Name="thanh_toan" EntityType="Self.thanh_toan" />
+    <AssociationSet Name="FK__dich_vu_p__ma_di__31EC6D26" Association="Self.FK__dich_vu_p__ma_di__31EC6D26">
+      <End Role="dich_vu" EntitySet="dich_vu" />
+      <End Role="dich_vu_phong" EntitySet="dich_vu_phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK__dich_vu_p__ma_ph__32E0915F" Association="Self.FK__dich_vu_p__ma_ph__32E0915F">
+      <End Role="Phong" EntitySet="Phong" />
+      <End Role="dich_vu_phong" EntitySet="dich_vu_phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK__phieu_dat__ma_ph__29572725" Association="Self.FK__phieu_dat__ma_ph__29572725">
+      <End Role="Phong" EntitySet="Phong" />
+      <End Role="phieu_dat_phong" EntitySet="phieu_dat_phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK__phieu_dat__ma_sv__2A4B4B5E" Association="Self.FK__phieu_dat__ma_sv__2A4B4B5E">
+      <End Role="sinh_vien" EntitySet="sinh_vien" />
+      <End Role="phieu_dat_phong" EntitySet="phieu_dat_phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK__thanh_toa__ma_ph__2D27B809" Association="Self.FK__thanh_toa__ma_ph__2D27B809">
+      <End Role="phieu_dat_phong" EntitySet="phieu_dat_phong" />
+      <End Role="thanh_toan" EntitySet="thanh_toan" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sinh_vien__ma_ph__267ABA7A" Association="Self.FK__sinh_vien__ma_ph__267ABA7A">
+      <End Role="Phong" EntitySet="Phong" />
+      <End Role="sinh_vien" EntitySet="sinh_vien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

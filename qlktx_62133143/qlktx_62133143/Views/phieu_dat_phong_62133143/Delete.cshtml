@@ -1,0 +1,60 @@
+﻿@model DoAnWeb.Models.phieu_dat_phong
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>Bạn có chắc xóa thông tin này không?</p>
+<style>
+    p {
+        color: red;
+        font-size: 20px;
+    }
+</style>
+<div style="margin-left: 30px;">
+    <h2>THÔNG TIN CHI TIẾT</h2>
+    <div class="details-container">
+        <div class="details-info">
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td>Mã phiếu đặt phòng: </td>
+                    <td>@Html.DisplayFor(model => model.ma_phieu_dat_phong)</td>
+                </tr>
+                <tr>
+                    <td>Ngày đặt: </td>
+                    <td>@Html.DisplayFor(model => model.ngay_dat)</td>
+                </tr>
+                <tr>
+                    <td>Ngày bắt đầu: </td>
+                    <td>@Html.DisplayFor(model => model.ngay_bat_dau)</td>
+                </tr>
+                <tr>
+                    <td>Ngày kết thúc:</td>
+                    <td>@Html.DisplayFor(model => model.ngay_ket_thuc)</td>
+                </tr>
+                <tr>
+                    <td>Tổng tiền: </td>
+                    <td>@Html.DisplayFor(model => model.tong_tien)</td>
+                </tr>
+                <tr>
+                    <td>Phòng: </td>
+                    <td>@Html.DisplayFor(model => model.Phong.ten_phong)</td>
+                </tr>
+                <tr>
+                    <td>Sinh viên: </td>
+                    <td>@Html.DisplayFor(model => model.sinh_vien.ho_ten)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Xóa" class="btn btn-default" /> |
+        @Html.ActionLink("Quay lại", "Index")
+    </div>
+}

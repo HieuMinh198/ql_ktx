@@ -1,0 +1,81 @@
+﻿@model DoAnWeb.Models.sinh_vien
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .details-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .details-image {
+        margin-right: 20px;
+    }
+
+    .details-info {
+        width: 100%;
+    }
+</style>
+
+<div style="margin-left: 30px;">
+    <h2 class="text-center">THÔNG TIN CHI TIẾT</h2>
+    <div class="details-container row ">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="details-image">
+                <img src="/Images/@Html.DisplayFor(model => model.anh)" width="100" height="100" />
+            </div>
+            <div class="details-info">
+                <table cellpadding="2" cellspacing="10">
+                    <tr>
+                        <td>Mã sinh viên: </td>
+                        <td>@Html.DisplayFor(model => model.ma_sv)</td>
+                    </tr>
+                    <tr>
+                        <td>Họ tên: </td>
+                        <td>@Html.DisplayFor(model => model.ho_ten)</td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính: </td>
+                        <td>@Html.DisplayFor(model => model.gioi_tinh)</td>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh:</td>
+                        <td>@Html.DisplayFor(model => model.ngay_sinh)</td>
+                    </tr>
+                    <tr>
+                        <td>Quê quán: </td>
+                        <td>@Html.DisplayFor(model => model.que_quan)</td>
+                    </tr>
+                    <tr>
+                        <td>Lớp: </td>
+                        <td>@Html.DisplayFor(model => model.lop)</td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại: </td>
+                        <td>@Html.DisplayFor(model => model.sdt)</td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td>@Html.DisplayFor(model => model.email)</td>
+                    </tr>
+                    <tr>
+                        <td>Ngày vào ở: </td>
+                        <td>@Html.DisplayFor(model => model.ngay_vao_o)</td>
+                    </tr>
+                    <tr>
+                        <td>Phòng: </td>
+                        <td>@Html.DisplayFor(model => model.Phong.ten_phong)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ma_sv }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

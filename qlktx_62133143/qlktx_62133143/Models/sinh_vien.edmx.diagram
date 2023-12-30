@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ab596ab46ad3473e92689802fdc46b6d" Name="Diagram1">
+        <EntityTypeShape EntityType="qlktx_DAWModel.dich_vu" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.dich_vu_phong" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.phieu_dat_phong" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.Phong" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.quan_tri" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.sinh_vien" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlktx_DAWModel.thanh_toan" Width="1.5" PointX="7.5" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__dich_vu_p__ma_di__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__dich_vu_p__ma_ph__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__phieu_dat__ma_ph__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__phieu_dat__ma_sv__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__thanh_toa__ma_ph__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="qlktx_DAWModel.FK__sinh_vien__ma_ph__267ABA7A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

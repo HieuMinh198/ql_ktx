@@ -1,0 +1,58 @@
+﻿@model DoAnWeb.Models.dich_vu
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>Bạn có chắc xóa thông tin này không?</p>
+<style>
+    p {
+        color: red;
+        font-size: 20px;
+    }
+</style>
+<style>
+    .details-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .details-image {
+        margin-right: 20px;
+    }
+
+    .details-info {
+        width: 100%;
+    }
+</style>
+<div style="margin-left: 30px;">
+    <h2>THÔNG TIN CHI TIẾT</h2>
+    <div class="details-container">
+        <div class="details-info">
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td>Mã dịch vụ: </td>
+                    <td>@Html.DisplayFor(model => model.ma_dich_vu)</td>
+                </tr>
+                <tr>
+                    <td>Tên dịch vụ: </td>
+                    <td>@Html.DisplayFor(model => model.ten_dich_vu)</td>
+                </tr>
+                <tr>
+                    <td>Giá dịch vụ </td>
+                    <td>@Html.DisplayFor(model => model.gia_dich_vu)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Quay lại", "Index")
+        </div>
+    }

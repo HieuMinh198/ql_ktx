@@ -1,0 +1,56 @@
+﻿@model DoAnWeb.Models.Phong
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    .details-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .details-image {
+        margin-right: 20px;
+    }
+
+    .details-info {
+        width: 100%;
+    }
+</style>
+
+<div style="margin-left: 30px;">
+    <h2>THÔNG TIN CHI TIẾT</h2>
+    <div class="details-container">
+        <div class="details-info">
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td>Mã phòng: </td>
+                    <td>@Html.DisplayFor(model => model.ma_phong)</td>
+                </tr>
+                <tr>
+                    <td>Tên phòng: </td>
+                    <td>@Html.DisplayFor(model => model.ten_phong)</td>
+                </tr>
+                <tr>
+                    <td>Số giường: </td>
+                    <td>@Html.DisplayFor(model => model.so_giuong)</td>
+                </tr>
+                <tr>
+                    <td>Loại phòng:</td>
+                    <td>@Html.DisplayFor(model => model.loai_phong)</td>
+                </tr>
+                <tr>
+                    <td>Giá phòng: </td>
+                    <td>@Html.DisplayFor(model => model.gia_phong)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ma_phong }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

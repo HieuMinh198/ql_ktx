@@ -1,0 +1,52 @@
+﻿@model DoAnWeb.Models.dich_vu_phong
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<style>
+    .details-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .details-image {
+        margin-right: 20px;
+    }
+
+    .details-info {
+        width: 100%;
+    }
+</style>
+
+<div style="margin-left: 30px;">
+    <h2>THÔNG TIN CHI TIẾT</h2>
+    <div class="details-container">
+        <div class="details-info">
+            <table cellpadding="2" cellspacing="10">
+                <tr>
+                    <td>Mã dịch vụ phòng: </td>
+                    <td>@Html.DisplayFor(model => model.ma_dich_vu_phong)</td>
+                </tr>
+                <tr>
+                    <td>Số lượng: </td>
+                    <td>@Html.DisplayFor(model => model.so_luong)</td>
+                </tr>
+                <tr>
+                    <td>Dịch vụ: </td>
+                    <td>@Html.DisplayFor(model => model.ma_dich_vu)</td>
+                </tr>
+                <tr>
+                    <td>Phòng:</td>
+                    <td>@Html.DisplayFor(model => model.ma_phong)</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ma_dich_vu_phong }) |
+    @Html.ActionLink("Quay lại", "Index")
+</p>

@@ -1,0 +1,35 @@
+﻿@model DoAnWeb.Models.IndexViewModel
+@{
+    ViewBag.Title = "Thông tin tài khoản";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Mật khẩu:</dt>
+        <dd>
+                @Html.ActionLink("Đổi mật khẩu", "ChangePassword")
+        </dd>
+            <dt>Số điện thoại:</dt>
+            <dd>
+                @if (Model.PhoneNumber != null)
+                {
+                    <br />
+                    @Html.ActionLink("Đổi số điện thoại", "AddPhoneNumber")
+                    using (Html.BeginForm("RemovePhoneNumber", "Manage_62133178", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Đổi" class="btn-link" />
+                    }
+                }
+                else
+                {
+                    @Html.ActionLink("Thêm", "AddPhoneNumber")
+                }
+            </dd>
+    </dl>
+</div>

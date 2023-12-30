@@ -1,0 +1,136 @@
+﻿@model IEnumerable<DoAnWeb.Models.sinh_vien>
+@{
+    ViewBag.Title = "PrintList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    int i = 0;
+}
+<style>
+    table.table-print {
+        font-size: 15px;
+    }
+
+        table.table-print th,
+        table.table-print td {
+            padding: 8px;
+            height: 35px;
+        }
+</style>
+<style>
+    table.table-print-title th {
+        text-align: center;
+        vertical-align: middle;
+    }
+</style>
+<link href="~/Content/print.css" rel="stylesheet" />
+<title>Bản in</title>
+<table id='tb_main_title' style='border-collapse: collapse;' name='tb_main_title' width='900' class="table-print-title">
+    <tr>
+        <th align='left' class='bold main_title'>
+            QUẢN LÝ KÝ TÚC XÁ
+        </th>
+    </tr>
+    <tr>
+        <th align='center' class='bold main_title' style='height:35px'>
+            DANH SÁCH SINH VIÊN
+        </th>
+    </tr>
+</table>
+<br />
+<table id='tb_main_body' style='border-collapse: collapse;' name='tb_main_body' width='900' class="table-print" border="1">
+    <tr>
+        <th>
+            STT
+        </th>
+        <th>
+            Mã SV
+        </th>
+        <th>
+            Họ tên sinh viên
+        </th>
+        <th>
+            Giới tính
+        </th>
+        <th>
+            Ngày sinh
+        </th>
+        <th>
+            Quê quán
+        </th>
+        <th>
+            Lớp
+        </th>
+        <th>
+            Số điện thoại
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Ngày vào ở
+        </th>
+        <th>
+            Phòng ở
+        </th>
+        <th>
+            Ghi chú
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td align="center">
+                @{i++;}
+                @i
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ma_sv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ho_ten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gioi_tinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngay_sinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.que_quan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lop)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sdt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ngay_vao_o)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phong.ten_phong)
+            </td>
+            <td width='15%'></td>
+        </tr>
+    }
+</table>
+@{
+    var ngayIn = " ngày " + DateTime.Now.Day.ToString() + " tháng " + DateTime.Now.Month.ToString() + " năm " + DateTime.Now.Year.ToString();
+}
+<table id='tb_footer' name='tb_footer' width='700' border="0" class="fixheader">
+    <tr>
+        <td align='left' width='30%'></td>
+        <td align='center' width='30%'></td>
+        <td align='center' class='sign italic'>
+            Khánh Hòa, @ngayIn
+        </td>
+    </tr>
+    <tr>
+        <td align='center' width='30%' class='bold'>Quản lý</td>
+        <td align='center' width='30%' class='bold'>Kế toán</td>
+        <td align='center' class='bold'>Người lập danh sách</td>
+    </tr>
+</table>
