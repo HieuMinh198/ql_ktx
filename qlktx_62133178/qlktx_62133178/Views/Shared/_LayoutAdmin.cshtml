@@ -7,7 +7,7 @@
     @Styles.Render("~/Content/css")
     <link href="~/Content/StyleAdmin.css" rel="stylesheet" />
 </head>
-<body style="margin-top:0px;" class="d-flex">
+<body style="margin-top:0px; display:flex;">
     <nav class="navbar navbar-default" style="width: 300px; height:100vh;">
         <div class="container-fluid flex-column">
             <div class="navbar-header d-flex justify-content-center" style="width:100%;">
@@ -54,7 +54,7 @@
                         
                     </li>
                 </ul>
-                <ul class="nav d-flex">
+                <ul class="nav" style="display:flex;">
                     <li>@Html.Partial("_LoginPartial")</li>
                 </ul>
             </div>

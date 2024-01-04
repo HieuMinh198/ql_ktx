@@ -1,9 +1,9 @@
 ﻿#banner {
     height: 80px;
     font-size: 22px;
-    color: blue;
+    color: #000000;
     text-align: center;
-    background-color: aqua;
+    background-color: gray;
     width: 100%;
     border-color: #080808;
     padding-top: 10px;
